@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B8C83532C649BD10041F977 /* SpatialVideoProcessorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8C83522C649BD10041F977 /* SpatialVideoProcessorApp.swift */; };
+		2B8C83552C649BD10041F977 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8C83542C649BD10041F977 /* ContentView.swift */; };
+		2B8C83572C649BD30041F977 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B8C83562C649BD30041F977 /* Assets.xcassets */; };
+		2B8C835A2C649BD30041F977 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B8C83592C649BD30041F977 /* Preview Assets.xcassets */; };
+		2B8C83652C649BD30041F977 /* SpatialVideoProcessorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8C83642C649BD30041F977 /* SpatialVideoProcessorTests.swift */; };
+		2B8C836F2C649BD30041F977 /* SpatialVideoProcessorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8C836E2C649BD30041F977 /* SpatialVideoProcessorUITests.swift */; };
+		2B8C83712C649BD30041F977 /* SpatialVideoProcessorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8C83702C649BD30041F977 /* SpatialVideoProcessorUITestsLaunchTests.swift */; };
+		2B8C83802C649C240041F977 /* SpatialVideoSplitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8C837F2C649C1B0041F977 /* SpatialVideoSplitter.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B8C83612C649BD30041F977 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B8C83472C649BD10041F977 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B8C834E2C649BD10041F977;
+			remoteInfo = SpatialVideoProcessor;
+		};
+		2B8C836B2C649BD30041F977 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B8C83472C649BD10041F977 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B8C834E2C649BD10041F977;
+			remoteInfo = SpatialVideoProcessor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B8C834F2C649BD10041F977 /* SpatialVideoProcessor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpatialVideoProcessor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B8C83522C649BD10041F977 /* SpatialVideoProcessorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpatialVideoProcessorApp.swift; sourceTree = "<group>"; };
+		2B8C83542C649BD10041F977 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2B8C83562C649BD30041F977 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B8C83592C649BD30041F977 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2B8C835B2C649BD30041F977 /* SpatialVideoProcessor.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SpatialVideoProcessor.entitlements; sourceTree = "<group>"; };
+		2B8C83602C649BD30041F977 /* SpatialVideoProcessorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpatialVideoProcessorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B8C83642C649BD30041F977 /* SpatialVideoProcessorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpatialVideoProcessorTests.swift; sourceTree = "<group>"; };
+		2B8C836A2C649BD30041F977 /* SpatialVideoProcessorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpatialVideoProcessorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B8C836E2C649BD30041F977 /* SpatialVideoProcessorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpatialVideoProcessorUITests.swift; sourceTree = "<group>"; };
+		2B8C83702C649BD30041F977 /* SpatialVideoProcessorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpatialVideoProcessorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2B8C837F2C649C1B0041F977 /* SpatialVideoSplitter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpatialVideoSplitter.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B8C834C2C649BD10041F977 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B8C835D2C649BD30041F977 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B8C83672C649BD30041F977 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B8C83462C649BD10041F977 = {
+			isa = PBXGroup;
+			children = (
+				2B8C83512C649BD10041F977 /* SpatialVideoProcessor */,
+				2B8C83632C649BD30041F977 /* SpatialVideoProcessorTests */,
+				2B8C836D2C649BD30041F977 /* SpatialVideoProcessorUITests */,
+				2B8C83502C649BD10041F977 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B8C83502C649BD10041F977 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B8C834F2C649BD10041F977 /* SpatialVideoProcessor.app */,
+				2B8C83602C649BD30041F977 /* SpatialVideoProcessorTests.xctest */,
+				2B8C836A2C649BD30041F977 /* SpatialVideoProcessorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B8C83512C649BD10041F977 /* SpatialVideoProcessor */ = {
+			isa = PBXGroup;
+			children = (
+				2B8C837E2C649C080041F977 /* Views */,
+				2B8C837D2C649BF20041F977 /* Models */,
+				2B8C83522C649BD10041F977 /* SpatialVideoProcessorApp.swift */,
+				2B8C83542C649BD10041F977 /* ContentView.swift */,
+				2B8C83562C649BD30041F977 /* Assets.xcassets */,
+				2B8C835B2C649BD30041F977 /* SpatialVideoProcessor.entitlements */,
+				2B8C83582C649BD30041F977 /* Preview Content */,
+			);
+			path = SpatialVideoProcessor;
+			sourceTree = "<group>";
+		};
+		2B8C83582C649BD30041F977 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2B8C83592C649BD30041F977 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2B8C83632C649BD30041F977 /* SpatialVideoProcessorTests */ = {
+			isa = PBXGroup;
+			children = (
+				2B8C83642C649BD30041F977 /* SpatialVideoProcessorTests.swift */,
+			);
+			path = SpatialVideoProcessorTests;
+			sourceTree = "<group>";
+		};
+		2B8C836D2C649BD30041F977 /* SpatialVideoProcessorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2B8C836E2C649BD30041F977 /* SpatialVideoProcessorUITests.swift */,
+				2B8C83702C649BD30041F977 /* SpatialVideoProcessorUITestsLaunchTests.swift */,
+			);
+			path = SpatialVideoProcessorUITests;
+			sourceTree = "<group>";
+		};
+		2B8C837D2C649BF20041F977 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2B8C837F2C649C1B0041F977 /* SpatialVideoSplitter.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2B8C837E2C649C080041F977 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B8C834E2C649BD10041F977 /* SpatialVideoProcessor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B8C83742C649BD30041F977 /* Build configuration list for PBXNativeTarget "SpatialVideoProcessor" */;
+			buildPhases = (
+				2B8C834B2C649BD10041F977 /* Sources */,
+				2B8C834C2C649BD10041F977 /* Frameworks */,
+				2B8C834D2C649BD10041F977 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpatialVideoProcessor;
+			productName = SpatialVideoProcessor;
+			productReference = 2B8C834F2C649BD10041F977 /* SpatialVideoProcessor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2B8C835F2C649BD30041F977 /* SpatialVideoProcessorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B8C83772C649BD30041F977 /* Build configuration list for PBXNativeTarget "SpatialVideoProcessorTests" */;
+			buildPhases = (
+				2B8C835C2C649BD30041F977 /* Sources */,
+				2B8C835D2C649BD30041F977 /* Frameworks */,
+				2B8C835E2C649BD30041F977 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B8C83622C649BD30041F977 /* PBXTargetDependency */,
+			);
+			name = SpatialVideoProcessorTests;
+			productName = SpatialVideoProcessorTests;
+			productReference = 2B8C83602C649BD30041F977 /* SpatialVideoProcessorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2B8C83692C649BD30041F977 /* SpatialVideoProcessorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B8C837A2C649BD30041F977 /* Build configuration list for PBXNativeTarget "SpatialVideoProcessorUITests" */;
+			buildPhases = (
+				2B8C83662C649BD30041F977 /* Sources */,
+				2B8C83672C649BD30041F977 /* Frameworks */,
+				2B8C83682C649BD30041F977 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B8C836C2C649BD30041F977 /* PBXTargetDependency */,
+			);
+			name = SpatialVideoProcessorUITests;
+			productName = SpatialVideoProcessorUITests;
+			productReference = 2B8C836A2C649BD30041F977 /* SpatialVideoProcessorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B8C83472C649BD10041F977 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					2B8C834E2C649BD10041F977 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					2B8C835F2C649BD30041F977 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 2B8C834E2C649BD10041F977;
+					};
+					2B8C83692C649BD30041F977 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 2B8C834E2C649BD10041F977;
+					};
+				};
+			};
+			buildConfigurationList = 2B8C834A2C649BD10041F977 /* Build configuration list for PBXProject "SpatialVideoProcessor" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B8C83462C649BD10041F977;
+			productRefGroup = 2B8C83502C649BD10041F977 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B8C834E2C649BD10041F977 /* SpatialVideoProcessor */,
+				2B8C835F2C649BD30041F977 /* SpatialVideoProcessorTests */,
+				2B8C83692C649BD30041F977 /* SpatialVideoProcessorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B8C834D2C649BD10041F977 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B8C835A2C649BD30041F977 /* Preview Assets.xcassets in Resources */,
+				2B8C83572C649BD30041F977 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B8C835E2C649BD30041F977 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B8C83682C649BD30041F977 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B8C834B2C649BD10041F977 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B8C83552C649BD10041F977 /* ContentView.swift in Sources */,
+				2B8C83802C649C240041F977 /* SpatialVideoSplitter.swift in Sources */,
+				2B8C83532C649BD10041F977 /* SpatialVideoProcessorApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B8C835C2C649BD30041F977 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B8C83652C649BD30041F977 /* SpatialVideoProcessorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B8C83662C649BD30041F977 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B8C83712C649BD30041F977 /* SpatialVideoProcessorUITestsLaunchTests.swift in Sources */,
+				2B8C836F2C649BD30041F977 /* SpatialVideoProcessorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B8C83622C649BD30041F977 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B8C834E2C649BD10041F977 /* SpatialVideoProcessor */;
+			targetProxy = 2B8C83612C649BD30041F977 /* PBXContainerItemProxy */;
+		};
+		2B8C836C2C649BD30041F977 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B8C834E2C649BD10041F977 /* SpatialVideoProcessor */;
+			targetProxy = 2B8C836B2C649BD30041F977 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2B8C83722C649BD30041F977 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2B8C83732C649BD30041F977 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		2B8C83752C649BD30041F977 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SpatialVideoProcessor/SpatialVideoProcessor.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SpatialVideoProcessor/Preview Content\"";
+				DEVELOPMENT_TEAM = 25W265SRQU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSAppleEventsUsageDescription = "This app needs access to read and write files in folders you choose.";
+				INFOPLIST_KEY_NSDesktopFolderUsageDescription = "This app needs access to the Desktop folder to save processed videos.";
+				INFOPLIST_KEY_NSDocumentsFolderUsageDescription = "This app needs access to the Documents folder to save processed videos.";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sandeepmishra.MV-to-SBS.SpatialVideoProcessor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2B8C83762C649BD30041F977 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SpatialVideoProcessor/SpatialVideoProcessor.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SpatialVideoProcessor/Preview Content\"";
+				DEVELOPMENT_TEAM = 25W265SRQU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSAppleEventsUsageDescription = "This app needs access to read and write files in folders you choose.";
+				INFOPLIST_KEY_NSDesktopFolderUsageDescription = "This app needs access to the Desktop folder to save processed videos.";
+				INFOPLIST_KEY_NSDocumentsFolderUsageDescription = "This app needs access to the Documents folder to save processed videos.";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sandeepmishra.MV-to-SBS.SpatialVideoProcessor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		2B8C83782C649BD30041F977 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 25W265SRQU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sandeepmishra.MV-to-SBS.SpatialVideoProcessorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpatialVideoProcessor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SpatialVideoProcessor";
+			};
+			name = Debug;
+		};
+		2B8C83792C649BD30041F977 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 25W265SRQU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sandeepmishra.MV-to-SBS.SpatialVideoProcessorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpatialVideoProcessor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SpatialVideoProcessor";
+			};
+			name = Release;
+		};
+		2B8C837B2C649BD30041F977 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 25W265SRQU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sandeepmishra.MV-to-SBS.SpatialVideoProcessorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SpatialVideoProcessor;
+			};
+			name = Debug;
+		};
+		2B8C837C2C649BD30041F977 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 25W265SRQU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sandeepmishra.MV-to-SBS.SpatialVideoProcessorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SpatialVideoProcessor;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B8C834A2C649BD10041F977 /* Build configuration list for PBXProject "SpatialVideoProcessor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B8C83722C649BD30041F977 /* Debug */,
+				2B8C83732C649BD30041F977 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B8C83742C649BD30041F977 /* Build configuration list for PBXNativeTarget "SpatialVideoProcessor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B8C83752C649BD30041F977 /* Debug */,
+				2B8C83762C649BD30041F977 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B8C83772C649BD30041F977 /* Build configuration list for PBXNativeTarget "SpatialVideoProcessorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B8C83782C649BD30041F977 /* Debug */,
+				2B8C83792C649BD30041F977 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B8C837A2C649BD30041F977 /* Build configuration list for PBXNativeTarget "SpatialVideoProcessorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B8C837B2C649BD30041F977 /* Debug */,
+				2B8C837C2C649BD30041F977 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B8C83472C649BD10041F977 /* Project object */;
+}
